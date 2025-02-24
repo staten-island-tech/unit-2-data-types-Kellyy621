@@ -1,4 +1,4 @@
-service=input
+service=input ("Rate the service (great, good, okay, bad): ")
 if service=="great":
     print('25%')
 elif service == "good":
@@ -7,3 +7,5 @@ elif service == "okay":
     print('15%')
 elif service == "bad":
     print('10%')
+else:
+    print('none')

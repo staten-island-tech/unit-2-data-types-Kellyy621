@@ -79,8 +79,6 @@ Here, the user will either input Friday or not. It is either Friday or it is not
 ## F Strings
 Variables can be used inside Strings by adding an F before the String and using {} templates inside the String. See below
 ``` Python
-x = "test"
-print(f"hello {x}")
 ```
 ```python
 

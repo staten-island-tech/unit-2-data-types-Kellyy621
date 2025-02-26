@@ -1,0 +1,5 @@
+def language(s, S, t, T):
+    if s and S < t and T:
+        print("probably english")
+    elif s and S > t and T or s and S == t and T:
+        print("probably French")

@@ -1,5 +1,8 @@
-def language(s, S, t, T):
-    if s and S < t and T:
-        print("probably english")
-    elif s and S > t and T or s and S == t and T:
-        print("probably French")
+language = input (str("Enter a language"))
+T=0
+S=0
+for i in language:
+    if i == ("T or t") > ("S or s"):
+        print("The text is english")
+    elif ("T or t") < ("S or s") or ("T or t") == ("S or s"):
+        print ("The text is French")

@@ -1,0 +1,6 @@
+def GCF(x): 
+    if x == True:
+        print ("Yes this is the GCF")
+    elif x == False:
+        print ("No")
+        

@@ -2,17 +2,17 @@ Mean_Girls = f"""It was ___(FOOD)___ day at school, and ___(NAME)___ was super__
  ___(NAME)___ chased the___(NOUN)___ all over school. She ___(VERB1)___,___(VERB2)___, and ___(VERB3)___ through the playground. Then she tripped on her ___(NOUN)___ and the 
  ___(NOUN)___ escaped! Luckily, ___(NAME)___’s friends were willing to share their___(FOOD)___ with her """
 
-Adjective = input("excited")
-Name = input ("Regina")
-Noun = input ("ginger")
-Food = input ("Kalteen bars")
-Verb1 = input ("ran")
-Verb2 = ("chased")
-Verb3 = ("screamed")
+ADJECTIVE = input("excited")
+NAME = input ("Regina")
+NOUN = input ("ginger")
+FOOD = input ("Kalteen bars")
+VERB1 = input ("ran")
+VERB2 = input("chased")
+VERB3 = input("screamed")
 
-Madlibs = Mean_Girls.format (("FOOD == food")("VERB1 == Verb1")("VERB2 == Verb2")("VERB3 == Verb 3")("ADJECTIVE == Adjective") ("NAME == Name")("NOUN == Noun"))
-print("\nHere’s your Mad Libs story:\n")
-print ("Madlibs")
+
+
+print ("Mean_Girls")
 
 
 
